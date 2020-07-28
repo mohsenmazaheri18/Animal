@@ -1,30 +1,18 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 using UnityEngine.UI;
 
 public class Anim_Button : MonoBehaviour
 {
     public GameObject hen;
-    public Button Buttonn;
-
+    public Button button;
 
     void Start()
     {
 
-        Buttonn.onClick.AddListener(() =>
+        button.onClick.AddListener(() =>
         {
-            
-            hen.transform.position = Buttonn.transform.position;
-
-
+            hen.transform.position = button.transform.position;
         });
 
-    }
-    void Update()
-    {
-
-            
-        
     }
 }

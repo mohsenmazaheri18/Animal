@@ -1,6 +1,5 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class level1 : MonoBehaviour
 {
@@ -11,7 +10,7 @@ public class level1 : MonoBehaviour
     }
     public void next2()
     {
-        Application.LoadLevel("Mission3");
+        SceneManager.LoadScene("Hard_Levels");
     }
     public void home()
     {
