@@ -58,6 +58,7 @@
      <Compile Include="Assets\Script\Anim_Button.cs" />
      <Compile Include="Assets\Script\Next_Level\level1.cs" />
      <Compile Include="Assets\Script\Next_Level\menu.cs" />
+     <Compile Include="Assets\Script\buttonbtn.cs" />
  <Reference Include="Unity.Timeline.Editor">
  <HintPath>E:/git/Animals Maze/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
  </Reference>
